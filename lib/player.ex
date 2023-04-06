@@ -9,9 +9,9 @@ defmodule ExMon.Player do
     %ExMon.Player{
       life: @max_life,
       moves: %{
-      move_avg: move_avg,
-      move_heal: move_heal,
-      move_rnd: move_rnd
+        move_avg: move_avg,
+        move_heal: move_heal,
+        move_rnd: move_rnd
       },
       name: name
     }
